@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanasov</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/906b44c92a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="burger">
+                <span class></span>
+            </div>
+            <ul class="menu">
+                <li class="menu_list">
+                    <a href="" class="menu_list_item">Home</a>
+                </li>
+                <li class="menu_list">
+                    <a href="" class="menu_list_item">About me</a>
+                </li>
+                <li class="menu_list">
+                    <a href="" class="menu_list_item">Skills</a>
+                </li>
+                <li class="menu_list">
+                    <a href="" class="menu_list_item">Portfolio</a>
+                </li>
+                <li class="menu_list">
+                    <a href="" class="menu_list_item">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="txt_header">
+            <h2 class="my_name">Aleksandr Tanasov</h2>
+            <span class="my_skills_text">HTML, CSS, JS Web Developers<br>29 years old, Kaliningrad</span>
+            <div class="btn_lang">
+                <a href="" class="text_lang ru_lang_btn">ru</a>
+                <a href="" class="text_lang en_lang_btn">en</a>
+            </div>
+        </div>
+        <div class="my_photo">
+            <img class="img_header" src="./img/my_photo.jpg" alt="my_photo" width="943" height="387">
+        </div>
+    </header>
+    <main class="main">
+        <section class="section_1">
+            <h2 class="head_section_1">About me</h2>
+            <p class="text_section_1">Hi, I'm Aleksandr – HTML/CSS/JS Devoloper from Kaliningrad. I'm interested in web development and everything connected with it.</p>
+            <p class="text_section_1">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+            <p class="text_section_1">Ready to implement excellent projects with wonderful people.</p>
+        </section>
+        <section class="section_2">
+            <h2 class="head_section_2">Skills</h2>
+            <p class="text_section_2">I use technology</p>
+            <div class="skills_section_2">
+                <div class="skill_section_2">
+                    <i class="fab fa-html5"></i>
+                    <span class="head_skill">HTML</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="skill_section_2">
+                    <i class="fab fa-css3-alt"></i>
+                    <span class="head_skill">CSS</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="skill_section_2">
+                    <i class="fab fa-js-square"></i>
+                    <span class="head_skill">JS</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="skill_section_2">
+                    <i class="fab fa-sass"></i>
+                    <span class="head_skill">SCSS</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="text_section_2">I use the following skills.</p>
+            <div class="my_skills">
+                <ul class="my_skill">
+                    <li class="my_skill_item">Layout of sites using HTML5 and CSS3</li>
+                    <li class="my_skill_item">The use of IDEs, useful tricks, and code auto-checking tools</li>
+                    <li class="my_skill_item">Using browser development and debugging tools</li>
+                    <li class="my_skill_item">Monitoring the release process of various versions of programs (GIT)</li>
+                    <li class="my_skill_item">HTML Responsive Web Design</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_3">
+            <h2 class="head_section_3">Portfolio</h2>
+            <div class="portfolio">
+                <a href="#" class="website_1">
+                    <img class="img_website" src="./img/website_1.jpg" alt="website" width="470" height="230">
+                    <span class="head_portfolio_website">Web site 1</span>
+                </a>
+                <a href="#" class="website_1">
+                    <img class="img_website" src="./img/website_2.jpg" alt="website" width="470" height="230">
+                    <span class="head_portfolio_website">Web site 2</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <h2 class="head_footer">Contacts</h2>
+        <p class="text_footer">Want to know more or just chat?<br> You are welcome!</p>
+        <form name="feedback" method="POST" class="form_footer" action="send.php">
+            <input class="input_text_form" type="text" name="fio" placeholder="Your name" required>
+            <input class="input_text_form" type="text" name="email" placeholder="Your email" required>
+            <textarea class="textarea_form" name="message" placeholder="Your message" required></textarea>
+            <input type="submit" class="btn_form" value="SEND">
+        </form>
+        <h2 class="head_2_footer">My social networks</h2>
+        <div class="socials_icons">
+            <a href="#" class="git_icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="vk_icon"><i class="fab fa-vk"></i></a>
+            <a href="" class="facebook_icon"><i class="fab fa-facebook-square"></i></a>
+        </div>
+    </footer>
+    <script src="./js/menu_btn.js"></script>
+</body>
+
+</html>
